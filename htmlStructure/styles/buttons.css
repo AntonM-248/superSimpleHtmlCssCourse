@@ -1,0 +1,139 @@
+.subscribe-button{
+  background-color: rgb(247, 65, 65);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.join-button{
+  background-color: white;
+  border-color: rgb(50, 50, 224);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(50, 50, 224);
+  height: 36px;
+  width: 62px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.tweet-button{
+  background-color: rgb(35, 130, 219);
+  border: none;
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 62px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.uber-button{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color:white;
+  height: 32px;
+  width: 102px;
+  transition:opacity 0.15s;
+}
+
+.uber-button:hover{
+  opacity: 0.6;
+}
+
+.amazon-button{
+  background-color: rgb(255, 216, 20);
+  color:black;
+  width: 150px;
+  height: 28px;
+  border:none;
+  border-radius: 20px;
+  transition:background-color 0.15s;
+}
+
+.amazon-button:hover{
+  background-color: rgb(194, 194, 11);
+}
+
+.github-button{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 80px;
+  height: 27px;
+  transition: box-shadow 0.15s;
+}
+
+.github-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,.15);
+}
+
+.bootstrap-button-purple{
+  background-color: rgb(121, 82, 179);
+  color:white;
+  height: 26px;
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.15s;
+}
+
+.bootstrap-button-purple:hover{
+  background-color: purple;
+}
+
+.bootstrap-button-white{
+  background-color: rgb(255, 255, 255);
+  color:grey;
+  height: 26px;
+  width: 100px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 3px;
+  transition: background-color 0.15s,
+      color 0.15s;
+}
+
+.bootstrap-button-white:hover{
+  background-color: grey;
+  color:white;
+}
+
+.linkedin-button-blue{
+  border: none;
+  border-radius: 20px;
+  color:white;
+  background-color: rgb(10, 102, 194);
+  height: 26px;
+  width: 186px;
+  transition: background-color 0.15s;
+}
+
+.linkedin-button-blue:hover{
+  background-color: darkblue;
+}
+
+.linkedin-button-white{
+  border-width: 1px;
+  border-color: blue;
+  border-radius: 20px;
+  color:blue;
+  background-color: white;
+  height: 26px;
+  width: 50px;
+  transition: all 0.15s;
+}
+
+.linkedin-button-white:hover{
+  background-color: rgb(120, 189, 253);
+  border-width: 2px;
+}

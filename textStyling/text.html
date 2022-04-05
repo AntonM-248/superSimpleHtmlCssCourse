@@ -1,0 +1,98 @@
+<style>
+    /*p by default has margin at the top and
+    bottom. You can override it using css.*/
+    p{
+        font-family: Arial;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    /*class selectors are more specific than element
+    selectors and thus will override them.*/
+
+    .video-title{
+        font-size: 18px;
+        font-weight: bold;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .video-stats {
+        font-size: 14px;
+        color: rgb(94, 94, 94);
+        margin-bottom: 20px;
+    }
+
+    .video-author{
+        font-size: 14px;
+        color: rgb(94, 94, 94);
+        margin-bottom: 20px;
+    }
+
+    .video-description {
+        font-size: 14px;
+        color: rgb(94, 94, 94);
+        width: 280px;
+        line-height: 22px;
+        margin-bottom: 100px;
+    }
+
+    .apple-text{
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: red;
+        text-align: center;
+        color: white;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+/*By adding margin to spans, you can
+insert extra space between words which 
+is harder to do with html alone*/
+    .span-example {
+        margin-left: 12px;
+        color:red;
+    }
+
+    .span-example:hover{
+        text-decoration: underline;
+    }
+
+    .shop-link{
+        cursor: pointer;
+    }
+
+    .shop-link:hover{
+        text-decoration:underline;
+    }
+</style>
+
+<p class="video-title">
+    Talking Tech and AI with Google CEO Sundar Pachai!
+</p>
+
+<p class="video-stats">
+    3.4M view &#183; 6 months age
+</p>
+
+<p class="video-author">
+    Marques Brownlee &#10003;
+</p>
+
+<p class="video-description">
+    Talking tech and AI on the heels of Google
+    I/O. Also a daily driver phone reveal from
+    Google's CEO. Shoutout to Sundar!
+</p>
+
+<p class="apple-text">
+    Shop early for the best selection of
+     holiday favourites. <span class="shop-link">Shop now</span> &#62;
+</p>
+
+<p>
+    Shop early for the <strong>best selection</strong> of
+     <u>holiday favourites</u>. <span class="span-example">Shop now</span>
+</p>
+

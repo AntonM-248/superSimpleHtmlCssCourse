@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .inbox {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      border: none;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    }
+
+    .title {
+      font-family: Arial;
+      color: grey;
+      margin: 12px;
+    }
+
+    .email-preview {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .photo {
+      width: 30px;
+      height: 30px;
+      background-color: rgb(28, 0, 131);
+      border-radius: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 12px;
+    }
+
+    .photo-text {
+      color: white;
+    }
+
+    .preview-text {
+      display: flex;
+      flex-direction: column;
+      max-width: 430px;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+
+    .title-time {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .first-line {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: "...";
+      color: grey;
+    }
+
+    div {
+      font-family: Arial;
+    }
+
+    .email-title {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .email-time {
+      color: grey;
+    }
+
+    .main-message {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .tweet {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+
+    .name-at {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 20px;
+      margin-right: 8px;
+    }
+
+    .tweet-link {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+    }
+
+    .link {
+      display: flex;
+      width: 85%;
+      border-style: solid;
+      border-width: 1px;
+      border-color: grey;
+      height: 120px;
+      border-radius: 20px;
+      margin-left: 50px;
+    }
+
+    .link-image {
+      height: 100%;
+      width: 100px;
+      background-color: grey;
+      border-top-left-radius: 20px;
+
+      border-bottom-left-radius: 20px;
+    }
+
+    .image-descriptor {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="inbox">
+    <div class="title">All Inboxes</div>
+
+    <div class="email-preview">
+      <div class="photo">
+        <div class="photo-text">C</div>
+      </div>
+      <div class="preview-text">
+        <div class="title-time">
+          <div class="email-title">Chewy Promotions</div>
+          <div class="email-time">4:58 pm</div>
+        </div>
+        <div class="main-message">Biggest sales of the year</div>
+        <div class="first-line">Hey there! We're writing to tell you about our upcoming sales on all items</div>
+      </div>
+    </div>
+
+    <div class="email-preview">
+      <div style="background-color: rgb(119, 119, 0);" class="photo">
+        <div class="photo-text">B</div>
+      </div>
+      <div class="preview-text">
+        <div class="title-time">
+          <div class="email-title">Best Buy</div>
+          <div class="email-time">12:32 pm</div>
+        </div>
+        <div class="main-message">Your Best Buy eReceipt</div>
+        <div class="first-line">Thank you for shopping at Best Buy, here is your receipt. Returns are valid for 1 month
+          after purchase</div>
+      </div>
+    </div>
+
+    <div class="email-preview">
+      <div style="background-color: rgb(0, 63, 0);" class="photo">
+        <div class="photo-text">N</div>
+      </div>
+      <div class="preview-text">
+        <div class="title-time">
+          <div class="email-title">Netflix</div>
+          <div class="email-time">9:00 am</div>
+        </div>
+        <div class="main-message">Here's what's coming soon to Netflix</div>
+        <div class="first-line">Brand new movies and shows. Old favorites return as well, particularly for Nick Cage
+          fans.</div>
+      </div>
+    </div>
+
+  </div>
+  <hr>
+
+  <div class="tweet-link">
+    <div class="tweet">
+      <div style="background-color: rgb(0, 63, 0);" class="photo">
+        <div class="photo-text">N</div>
+      </div>
+      <div class="preview-text">
+        <div class="name-at">
+          <div class="name">supersimple.dev</div>
+          <div class="email-time">@SuperSimpleDev</div>
+        </div>
+        <div>Brand new movies and shows. Old favorites return as well, particularly for Nick Cage
+          fans.</div>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="link-image"></div>
+      <div class="image-descriptor">
+        <div>youtube.com</div>
+        <div>Backend web development - a complete overview(2021)</div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

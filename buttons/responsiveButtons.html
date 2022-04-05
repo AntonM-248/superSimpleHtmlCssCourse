@@ -1,0 +1,104 @@
+<style>
+    .subscribe-button{
+        background-color: rgb(247, 65, 65);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-left: 8px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+    }
+    /*Psuedo classes are in form (existing class) + ":" + (modifier)
+    They allow you to modify an element base on what is happening to it
+    Modifier specifies when the pseudo class takes effect*/
+
+    /*Opacity ranges from 0 to 1
+    0 is completely transparent
+    1 is original form*/
+
+    /*with transition, you specify a property in 
+    a pseudo class and then a time value. The 
+    element will gradually reach that property
+    over the time specified. */
+
+    /*transition classes only apply to the class
+    they are in so usually its best to have it in the
+    base class. If its in a pseudo class it will 
+    only work for the specified behavior, ie hover. */
+
+    /*by default, elements are aligned according to
+    the text. This is because websites used to be just
+    text with no aesthetic frills. Use vertical-align
+    css prop to align elements as desired.*/
+
+    .subscribe-button:hover{
+        opacity: .8;
+    }
+
+    .subscribe-button:active{
+        opacity: 0.3;
+    }
+
+    .join-button{
+        background-color: white;
+        border-color: rgb(50, 50, 224);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(50, 50, 224);
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, 
+            color 0.15s,
+            opacity 0.15s;
+    }
+
+    .join-button:hover{
+        background-color: rgb(50, 50, 224);
+        color: white;
+    }
+
+    .join-button:active{
+        opacity: 0.7;
+    }
+
+    .tweet-button{
+        background-color: rgb(35, 130, 219);
+        border: none;
+        color: rgb(255, 255, 255);
+        height: 36px;
+        width: 62px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+        padding: 10px;
+        /*box shadow takes horizontal offset,
+        vertical offset, blur amount, and color*/
+
+        /*rgba is just rgb with a value representing 
+        opacity. */
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+    }
+
+</style>
+
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN NOW OR DIE</button>
+<button class="tweet-button">Tweet</button>

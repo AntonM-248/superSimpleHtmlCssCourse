@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .grid-200-75 {
+      display: grid;
+      grid-template-columns: 200px 75px;
+    }
+
+    .grid-50-fr-75 {
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    }
+
+    .grid-4fr {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-200-75">
+    <div style="background-color: lightblue">200px</div>
+    <div style="background-color: lightpink">75px</div>
+  </div>
+  <hr>
+
+  <div class="grid-50-fr-75">
+    <div style="background-color: lightblue">col1</div>
+    <div style="background-color: lightpink">col2</div>
+    <div style="background-color: lightblue">col3</div>
+  </div>
+  <hr>
+
+  <div class="grid-4fr">
+    <div style="background-color: lightpink">col1</div>
+    <div style="background-color: lightpink">col2</div>
+    <div style="background-color: lightpink">col3</div>
+    <div style="background-color: lightpink">col4</div>
+    <div style="background-color: lightpink">col1</div>
+    <div style="background-color: lightpink">col2</div>
+    <div style="background-color: lightpink">col3</div>
+    <div style="background-color: lightpink">col4</div>
+  </div>
+  <hr>
+
+
+</body>
+
+</html>

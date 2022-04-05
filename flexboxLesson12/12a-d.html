@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .flex {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex">
+    <div style="
+      width: 200px; 
+      background-color: lightblue
+      ">200px</div>
+    <div style="
+    width: 75px;
+    background-color: pink;
+    ">75px</div>
+  </div>
+  <hr>
+
+  <div class="flex">
+    <div style="
+        width: 50px; 
+        background-color: lightblue
+        ">50px</div>
+    <div style="
+      flex: 1;
+      background-color: pink;
+      ">1 flex</div>
+    <div style="
+      width: 75px; 
+      background-color: lightblue
+      ">75px</div>
+  </div>
+  <hr>
+
+  <div class="flex" style="justify-content: space-between;">
+    <div style="
+      background-color: pink;
+      ">1 flex</div>
+    <div style="
+          background-color: pink;
+          ">1 flex</div>
+    <div style="
+          background-color: pink;
+          ">1 flex</div>
+    <div style="
+          background-color: pink;
+          ">1 flex</div>
+  </div>
+  <hr>
+
+  <div class="flex" style="
+    justify-content: space-between;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+  ">
+    <div style="
+        background-color: pink;
+        ">1 flex</div>
+    <div style="
+            background-color: pink;
+            ">1 flex</div>
+  </div>
+  <hr>
+</body>
+
+</html>

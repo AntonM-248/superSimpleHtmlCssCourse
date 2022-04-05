@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .info-box {
+      width: 500px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: grey;
+      border-radius: 8px;
+      height: 140px;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-count {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .item {
+      font-family: Arial;
+    }
+
+    .count {
+      font-family: Arial;
+      background-color: lightblue;
+      padding: 6px;
+      padding-left: 14px;
+      padding-right: 14 px;
+      border-radius: 20px;
+    }
+
+    .nav-bar {
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(193, 131, 243);
+      margin-right: 2px;
+      padding: 8px;
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+
+    .home,
+    .download {
+      color: white;
+      font-family: Arial;
+      font-size: 20px;
+    }
+
+    .home {
+      font-weight: bold;
+    }
+
+    .download {
+      background-color: rgb(193, 131, 243);
+      border-style: solid;
+      border-width: 1px;
+      padding: 10px;
+      padding-right: 14px;
+      padding-left: 14px;
+      border-radius: 3px;
+    }
+
+    .search-bar {
+      font-family: Arial;
+      font-size: 18px;
+      padding: 8px;
+      width: 800px;
+      border-radius: 18px;
+      border: none;
+      padding-right: 14px;
+      padding-left: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="info-box">
+    <div class="item-count">
+      <div class="item">Home</div>
+      <div class="count">14</div>
+    </div>
+    <div class="item-count">
+      <div class="item">Notifications</div>
+      <div class="count">3</div>
+    </div>
+    <div class="item-count">
+      <div class="item">Messages</div>
+      <div class="count">5</div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="nav-bar">
+    <div class="home">Home</div>
+    <input class="search-bar" type="text" placeholder="Search">
+    <button class="download">Download</button>
+  </div>
+</body>
+
+</html>
